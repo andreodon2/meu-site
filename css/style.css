@@ -1,0 +1,78 @@
+/* FORMATAÇÃO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* FORMATAÇÃO DO CABEÇALHO */
+
+.cabecalho{
+    height: 5em;
+    border: 1px solid red;
+}
+
+.logo{
+    width: 5em;
+    float: left;
+}
+
+.menu{
+    float: right;
+    padding: 2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu a{
+    padding: 1.3em;
+    color:black;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background: #ccc;
+    color:white;
+    font-weight: bold;
+}
+
+/* FORMATAÇÃO APRESENTAÇÃO */
+
+.show{
+    border: 1px solid blue;
+    height: 40em;
+    background: #ccc;
+}
+
+.show>h3{
+    font-size: 3.5em;
+    position: relative;
+    top: 3em;
+    left: 2em;
+}
+
+.show>p{
+    font-size: 1.5em;
+    width: 20em;
+    text-align: right;
+    position: relative;
+    top: 8em;
+    left: 2.5em;
+}
+
+.show>.botao{
+    font-size: 1em;
+    width: 25em;
+    height: 5em;
+    position: relative;
+    top: 15em;
+    left: 7em;
+}
+
+.apresentacao>.pessoa{
+    float: right;
+    align-items: self-end;
+    justify-content: right;
+}
