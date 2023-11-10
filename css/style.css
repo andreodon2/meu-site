@@ -9,7 +9,7 @@
 
 .cabecalho{
     height: 5em;
-    border: 1px solid red;
+    background-color: black;
 }
 
 .logo{
@@ -28,51 +28,46 @@ a{
 
 .menu a{
     padding: 1.3em;
-    color:black;
+    color: white;
     font-weight: bold;
 }
 
 .menu a:hover{
     background: #ccc;
-    color:white;
+    color: black;
     font-weight: bold;
 }
 
 /* FORMATAÇÃO APRESENTAÇÃO */
 
-.show{
-    border: 1px solid blue;
-    height: 40em;
-    background: #ccc;
+.apresentacao {
+    display: flex;
+    background-color: aqua;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0.5em;
 }
 
-.show>h3{
-    font-size: 3.5em;
-    position: relative;
-    top: 3em;
-    left: 2em;
+.show, .img {
+    flex: 1;
 }
 
-.show>p{
-    font-size: 1.5em;
-    width: 20em;
-    text-align: right;
-    position: relative;
-    top: 8em;
-    left: 2.5em;
+.show {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
 }
 
-.show>.botao{
-    font-size: 1em;
-    width: 25em;
-    height: 5em;
-    position: relative;
-    top: 15em;
-    left: 7em;
+.show h3 {
+    font-size: 3em;
 }
 
-.apresentacao>.pessoa{
-    float: right;
-    align-items: self-end;
+.show p {
+    font-size: 2em;
+}
+
+.img {
+    display: flex;
     justify-content: right;
 }
